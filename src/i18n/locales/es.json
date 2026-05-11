@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "projects": "Proyectos",
+    "contact": "Contacto",
+    "letsTalk": "Hablemos"
+  },
+  "hero": {
+    "line1": "Construyendo",
+    "line2": "interfaces",
+    "line3": "expresivas",
+    "subtitle": "Experto en desarrollo de software. Calidad, experiencia de usuario y plazos de entrega en la era de la automatización."
+  },
+  "status": {
+    "now": "AHORA",
+    "nowTitle": "Jugando con el futuro",
+    "nowDesc": "Actualmente especializado en flujos de trabajo impulsados por IA, sistemas de agentes autónomos y plataformas web escalables con tecnologías full-stack modernas.",
+    "exploreProjects": "Explorar proyectos",
+    "viewJourney": "Ver mi trayectoria",
+    "radar": "EN EL RADAR",
+    "radarTitle": "Ecosistemas multi-agente",
+    "radarDesc": "Explorando procedimientos de meta-orquestación para descomposición de tareas, programación y priorización en sistemas de desarrollo autónomos.",
+    "interests": "INTERESES",
+    "interestsTitle": "Siempre aprendiendo",
+    "interestsDesc": "Desde sistemas de diseño hasta arquitecturas distribuidas — siempre empujando los límites y explorando nuevos paradigmas en ingeniería de software."
+  },
+  "about": {
+    "title": "Sobre mí",
+    "subtitle": "Un ingeniero apasionado con amor por el código limpio, el diseño cuidadoso y la resolución de problemas complejos.",
+    "timeline": {
+      "2024": {
+        "role": "Desarrollador Frontend",
+        "company": "Astrocatto llc",
+        "description": "Lideré el desarrollo de una plataforma escalable con React, Zustand y Material UI, garantizando alta fidelidad visual desde Figma. Implementé validaciones robustas con Zod e internacionalización (i18n), optimizando el rendimiento y la sincronización de datos en tiempo real."
+      },
+      "2021 - 2023": {
+        "role": "Desarrollador Frontend",
+        "company": "Sesh",
+        "description": "Construí plataformas web escalables desde cero, manejando todo desde el diseño de bases de datos hasta interfaces pixel-perfect."
+      },
+      "2020": {
+        "role": "Desarrollador Frontend",
+        "company": "Agencia Digital",
+        "description": "Creé experiencias interactivas y sistemas de diseño para clientes empresariales en diversas industrias."
+      },
+      "2018": {
+        "role": "Desarrollador Junior",
+        "company": "Estudio Web",
+        "description": "Comencé mi trayectoria construyendo sitios web responsivos y aprendiendo los fundamentos del desarrollo web moderno."
+      }
+    }
+  },
+  "projects": {
+    "title": "Trabajo destacado",
+    "alpha": {
+      "title": "Proyecto Alpha",
+      "description": "Experimentos interactivos de rendimiento explorando transiciones de vista, SSR en streaming y micro-interacciones."
+    },
+    "toolkit": {
+      "title": "API Toolkit",
+      "description": "Una capa de API minimalista construida con runtimes modernos y enfocada en funcionalidades prácticas para desarrolladores."
+    },
+    "playground": {
+      "title": "Design Playground",
+      "description": "Una exploración práctica de tokens de diseño, sistemas de componentes y documentación estandarizada."
+    }
+  },
+  "contact": {
+    "title": "¿Tienes un problema difícil?",
+    "subtitle": "Si es así, no dudes en contactarme. Siempre estoy abierto a escuchar propuestas y crecer juntos.",
+    "cta": "Contáctame"
+  },
+  "footer": {
+    "rights": "© {{year}} yourname. Todos los derechos reservados."
+  }
+}

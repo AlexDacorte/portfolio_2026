@@ -1,0 +1,80 @@
+{
+  "nav": {
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "letsTalk": "Let's talk"
+  },
+  "hero": {
+    "line1": "Building",
+    "line2": "expressive",
+    "line3": "interfaces",
+    "subtitle": "Software development expert. Quality, user experience, and delivery timelines in the age of automation."
+  },
+  "status": {
+    "now": "NOW",
+    "nowTitle": "Playing with the future",
+    "nowDesc": "Currently specializing in AI-driven workflows, autonomous agent systems, and scalable web platforms, leveraging modern full-stack technologies.",
+    "exploreProjects": "Explore projects",
+    "viewJourney": "View my journey",
+    "radar": "ON THE RADAR",
+    "radarTitle": "Multi-agent ecosystems",
+    "radarDesc": "Exploring meta-orchestration procedures for task decomposition, scheduling, and prioritization in autonomous development systems.",
+    "interests": "INTERESTS",
+    "interestsTitle": "Always learning",
+    "interestsDesc": "From design systems to distributed architectures — constantly pushing boundaries and exploring new paradigms in software engineering."
+  },
+  "about": {
+    "title": "About me",
+    "subtitle": "A passionate engineer with a love for clean code, thoughtful design, and solving complex problems.",
+    "timeline": {
+      "2024": {
+        "year": "2024",
+        "role": "Senior Software Engineer",
+        "company": "Tech Corp",
+        "description": "Leading frontend architecture and AI integration initiatives across multiple product lines."
+      },
+      "2022": {
+        "year": "2022",
+        "role": "Full Stack Developer",
+        "company": "StartupXYZ",
+        "description": "Built scalable web platforms from the ground up, handling everything from database design to pixel-perfect UIs."
+      },
+      "2020": {
+        "year": "2020",
+        "role": "Frontend Developer",
+        "company": "Digital Agency",
+        "description": "Crafted interactive experiences and design systems for enterprise clients across various industries."
+      },
+      "2018": {
+        "year": "2018",
+        "role": "Junior Developer",
+        "company": "Web Studio",
+        "description": "Started my journey building responsive websites and learning the fundamentals of modern web development."
+      }
+    }
+  },
+  "projects": {
+    "title": "Featured work",
+    "alpha": {
+      "title": "Project Alpha",
+      "description": "Interactive performance experiments exploring view transitions, streaming SSR, and micro-interactions."
+    },
+    "toolkit": {
+      "title": "API Toolkit",
+      "description": "A minimal API layer built with modern runtimes and focused on practical features for developers."
+    },
+    "playground": {
+      "title": "Design Playground",
+      "description": "A practical exploration of design tokens, component systems, and standardized documentation."
+    }
+  },
+  "contact": {
+    "title": "Have a hard problem?",
+    "subtitle": "If that's the case, don't hesitate to reach out. I'm always open to hearing proposals and growing together.",
+    "cta": "Contact me"
+  },
+  "footer": {
+    "rights": "© {{year}} yourname. All rights reserved."
+  }
+}

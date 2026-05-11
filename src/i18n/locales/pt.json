@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "letsTalk": "Vamos conversar"
+  },
+  "hero": {
+    "line1": "Construindo",
+    "line2": "interfaces",
+    "line3": "expressivas",
+    "subtitle": "Especialista em desenvolvimento de software. Qualidade, experiência do usuário e prazos de entrega na era da automação."
+  },
+  "status": {
+    "now": "AGORA",
+    "nowTitle": "Brincando com o futuro",
+    "nowDesc": "Atualmente especializado em fluxos de trabalho impulsionados por IA, sistemas de agentes autônomos e plataformas web escaláveis com tecnologias full-stack modernas.",
+    "exploreProjects": "Explorar projetos",
+    "viewJourney": "Ver minha jornada",
+    "radar": "NO RADAR",
+    "radarTitle": "Ecossistemas multi-agente",
+    "radarDesc": "Explorando procedimentos de meta-orquestração para decomposição de tarefas, agendamento e priorização em sistemas de desenvolvimento autônomos.",
+    "interests": "INTERESSES",
+    "interestsTitle": "Sempre aprendendo",
+    "interestsDesc": "De design systems a arquiteturas distribuídas — constantemente empurrando os limites e explorando novos paradigmas em engenharia de software."
+  },
+  "about": {
+    "title": "Sobre mim",
+    "subtitle": "Um engenheiro apaixonado com amor por código limpo, design cuidadoso e resolução de problemas complexos.",
+    "timeline": {
+      "2024": {
+        "role": "Engenheiro de Software Sênior",
+        "company": "Tech Corp",
+        "description": "Liderando arquitetura frontend e iniciativas de integração de IA em múltiplas linhas de produto."
+      },
+      "2022": {
+        "role": "Desenvolvedor Full Stack",
+        "company": "StartupXYZ",
+        "description": "Construí plataformas web escaláveis do zero, lidando com tudo, desde design de banco de dados até interfaces pixel-perfect."
+      },
+      "2020": {
+        "role": "Desenvolvedor Frontend",
+        "company": "Agência Digital",
+        "description": "Criei experiências interativas e design systems para clientes empresariais em diversas indústrias."
+      },
+      "2018": {
+        "role": "Desenvolvedor Júnior",
+        "company": "Estúdio Web",
+        "description": "Comecei minha jornada construindo sites responsivos e aprendendo os fundamentos do desenvolvimento web moderno."
+      }
+    }
+  },
+  "projects": {
+    "title": "Trabalho em destaque",
+    "alpha": {
+      "title": "Projeto Alpha",
+      "description": "Experimentos interativos de performance explorando transições de visualização, SSR em streaming e micro-interações."
+    },
+    "toolkit": {
+      "title": "API Toolkit",
+      "description": "Uma camada de API minimalista construída com runtimes modernos e focada em funcionalidades práticas para desenvolvedores."
+    },
+    "playground": {
+      "title": "Design Playground",
+      "description": "Uma exploração prática de tokens de design, sistemas de componentes e documentação padronizada."
+    }
+  },
+  "contact": {
+    "title": "Tem um problema difícil?",
+    "subtitle": "Se for o caso, não hesite em entrar em contato. Estou sempre aberto a ouvir propostas e crescer juntos.",
+    "cta": "Entre em contato"
+  },
+  "footer": {
+    "rights": "© {{year}} yourname. Todos os direitos reservados."
+  }
+}
