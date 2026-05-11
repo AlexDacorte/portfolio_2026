@@ -6,9 +6,11 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
+      <a href="#about" className="group">
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
+        animate={{ opacity: 1, y: 0  }}
+        whileHover={{ scale: 1.05, cursor: "pointer" , textShadow: "0px 0px 8px rgba(255, 255, 255, 0.8)"}}
         transition={{ duration: 0.8, delay: 0.2 }}
         className="font-display font-bold text-5xl md:text-7xl lg:text-8xl leading-[0.95] tracking-tight text-foreground"
       >
@@ -16,6 +18,8 @@ const HeroSection = () => {
         <br />
         <span className="text-gradient-accent">{t("hero.line2")}</span> {t("hero.line3")}
       </motion.h1>
+      </a>
+
       <motion.p
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}

@@ -9,12 +9,12 @@
     "line1": "Building",
     "line2": "expressive",
     "line3": "interfaces",
-    "subtitle": "Software development expert. Quality, user experience, and delivery timelines in the age of automation."
+    "subtitle": "Software development. Quality, user experience, and delivery timelines."
   },
   "status": {
     "now": "NOW",
-    "nowTitle": "Playing with the future",
-    "nowDesc": "Currently specializing in AI-driven workflows, autonomous agent systems, and scalable web platforms, leveraging modern full-stack technologies.",
+    "nowTitle": "Frontend & IT Solutions",
+    "nowDesc": "Creating scalable web platforms and high-performance management systems. Transforming complex designs into fluid interfaces using React, Zustand, and TypeScript, with a strong focus on real-time data optimization and self-managing digital architectures.",
     "exploreProjects": "Explore projects",
     "viewJourney": "View my journey",
     "radar": "ON THE RADAR",
@@ -26,39 +26,28 @@
   },
   "about": {
     "title": "About me",
-    "subtitle": "A passionate engineer with a love for clean code, thoughtful design, and solving complex problems.",
+    "subtitle": "A passionate software developer with a love for clean code, thoughtful design, and solving complex problems.",
     "timeline": {
       "2024": {
-        "year": "2024",
-        "role": "Senior Software Engineer",
-        "company": "Tech Corp",
-        "description": "Leading frontend architecture and AI integration initiatives across multiple product lines."
+        "year": "2024 - Present",
+        "role": "Frontend Developer",
+        "company": "Astrocatto llc",
+        "description": "I develop a community management platform with React, Zustand and Material UI, prioritizing design fidelity, Zod validation and multi-language scalability."
       },
       "2022": {
-        "year": "2022",
-        "role": "Full Stack Developer",
-        "company": "StartupXYZ",
-        "description": "Built scalable web platforms from the ground up, handling everything from database design to pixel-perfect UIs."
-      },
-      "2020": {
-        "year": "2020",
+        "year": "2021 - 2023",
         "role": "Frontend Developer",
-        "company": "Digital Agency",
-        "description": "Crafted interactive experiences and design systems for enterprise clients across various industries."
-      },
-      "2018": {
-        "year": "2018",
-        "role": "Junior Developer",
-        "company": "Web Studio",
-        "description": "Started my journey building responsive websites and learning the fundamentals of modern web development."
+        "company": "Free-lance",
+        "description": "Built scalable web platforms from the ground up, handling everything from database design to pixel-perfect UIs."
       }
     }
   },
   "projects": {
     "title": "Featured work",
-    "alpha": {
-      "title": "Project Alpha",
-      "description": "Interactive performance experiments exploring view transitions, streaming SSR, and micro-interactions."
+    "blogmdx": {
+      "title": "Blogmdx",
+      "url":"https://fatstruct.github.io/blogmdx/",
+      "description": "A beautiful desktop editor for your blog. Rich text editing, Google Fonts styling, and one-click publishing to GitHub Pages."
     },
     "toolkit": {
       "title": "API Toolkit",
@@ -75,6 +64,6 @@
     "cta": "Contact me"
   },
   "footer": {
-    "rights": "© {{year}} yourname. All rights reserved."
+    "rights": "© {{year}} Alexsandro Da Corte. All rights reserved."
   }
 }

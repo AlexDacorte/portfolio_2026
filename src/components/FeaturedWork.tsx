@@ -3,7 +3,7 @@ import { ArrowUpRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const projectKeys = [
-  { key: "alpha", tags: ["React", "TypeScript", "Tailwind"], href: "#" },
+  { key: "blogmdx", tags: ["React", "TypeScript", "Tailwind"], href: "https://fatstruct.github.io/blogmdx/" },
   { key: "toolkit", tags: ["Node.js", "REST", "SSR"], href: "#" },
   { key: "playground", tags: ["CSS", "Design Tokens", "A11y"], href: "#" },
 ];
@@ -26,6 +26,7 @@ const FeaturedWork = () => {
           <motion.a
             key={project.key}
             href={project.href}
+            target="_blank"
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}

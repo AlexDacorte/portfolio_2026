@@ -1,33 +1,24 @@
 import { motion } from "framer-motion";
-
-const timeline = [
-  {
-    year: "2024",
-    role: "Senior Software Engineer",
-    company: "Tech Corp",
-    description: "Leading frontend architecture and AI integration initiatives across multiple product lines.",
-  },
-  {
-    year: "2022",
-    role: "Full Stack Developer",
-    company: "StartupXYZ",
-    description: "Built scalable web platforms from the ground up, handling everything from database design to pixel-perfect UIs.",
-  },
-  {
-    year: "2020",
-    role: "Frontend Developer",
-    company: "Digital Agency",
-    description: "Crafted interactive experiences and design systems for enterprise clients across various industries.",
-  },
-  {
-    year: "2018",
-    role: "Junior Developer",
-    company: "Web Studio",
-    description: "Started my journey building responsive websites and learning the fundamentals of modern web development.",
-  },
-];
+import { useTranslation } from "react-i18next";
 
 const AboutSection = () => {
+  const { t } = useTranslation();
+
+  const timeline = [
+  {
+    year: t("about.timeline.2024.year"),
+    role: t("about.timeline.2024.role"),
+    company: t("about.timeline.2024.company"),
+    description: t("about.timeline.2024.description"),
+  },
+  {
+    year: t("about.timeline.2022.year"),
+    role: t("about.timeline.2022.role"),
+    company: t("about.timeline.2022.company"),
+    description: t("about.timeline.2022.description"),
+  }
+];
+
   return (
     <section id="about" className="relative px-6 md:px-12 py-20 max-w-6xl mx-auto">
       <motion.h2
@@ -36,7 +27,7 @@ const AboutSection = () => {
         viewport={{ once: true }}
         className="font-display font-bold text-3xl md:text-4xl text-foreground mb-4"
       >
-        About me
+        {t("about.title")}
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, y: 15 }}
@@ -45,10 +36,10 @@ const AboutSection = () => {
         transition={{ delay: 0.1 }}
         className="text-muted-foreground text-lg mb-14 max-w-2xl"
       >
-        A passionate engineer with a love for clean code, thoughtful design, and solving complex problems.
+        {t("about.subtitle")}
       </motion.p>
 
-      <div className="relative">
+      <div className="relative mt-40">
         {/* Vertical line */}
         <div className="absolute left-[7px] md:left-1/2 md:-translate-x-px top-0 bottom-0 w-px bg-border" />
 
@@ -68,7 +59,7 @@ const AboutSection = () => {
               >
                 {/* Dot */}
                 <div className="absolute left-0 md:left-1/2 md:-translate-x-1/2 top-1 z-10">
-                  <div className="w-3.5 h-3.5 rounded-full bg-primary border-[3px] border-background" />
+                  <motion.div className="w-3.5 h-3.5 rounded-full bg-primary border-[3px] border-background" />
                 </div>
 
                 {/* Content */}

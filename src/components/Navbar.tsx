@@ -34,13 +34,15 @@ const Navbar = () => {
       <div className="flex items-center gap-6">
         <div className="hidden sm:flex items-center gap-8">
           {links.map((link) => (
-            <a
+            <motion.a
               key={link.href}
               href={link.href}
+              whileHover={{ rotate: 3 , scale: 1.05}}
+              transition={{ type: "spring", stiffness: 300 }}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
               {link.label}
-            </a>
+            </motion.a>
           ))}
           <a
             href="#contact"

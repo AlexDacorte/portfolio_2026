@@ -9,12 +9,12 @@
     "line1": "Construindo",
     "line2": "interfaces",
     "line3": "expressivas",
-    "subtitle": "Especialista em desenvolvimento de software. Qualidade, experiência do usuário e prazos de entrega na era da automação."
+    "subtitle": "Desenvolvimento de software. Qualidade, experiência do usuário e prazos de entrega."
   },
   "status": {
     "now": "AGORA",
-    "nowTitle": "Brincando com o futuro",
-    "nowDesc": "Atualmente especializado em fluxos de trabalho impulsionados por IA, sistemas de agentes autônomos e plataformas web escaláveis com tecnologias full-stack modernas.",
+    "nowTitle": "Frontend & Soluções IT",
+    "nowDesc": "Criando plataformas web escaláveis e sistemas de gestão de alto desempenho. Transformando designs complexos em interfaces fluidas usando React, Zustand e TypeScript, com forte foco em otimização de dados em tempo real e arquiteturas digitais autogerenciadas.",
     "exploreProjects": "Explorar projetos",
     "viewJourney": "Ver minha jornada",
     "radar": "NO RADAR",
@@ -26,35 +26,28 @@
   },
   "about": {
     "title": "Sobre mim",
-    "subtitle": "Um engenheiro apaixonado com amor por código limpo, design cuidadoso e resolução de problemas complexos.",
+    "subtitle": "Um desenvolvedor de software apasionado com amor por código limpo, design cuidadoso e resolução de problemas complexos.",
     "timeline": {
       "2024": {
-        "role": "Engenheiro de Software Sênior",
-        "company": "Tech Corp",
-        "description": "Liderando arquitetura frontend e iniciativas de integração de IA em múltiplas linhas de produto."
+        "year": "2024 - presente",
+        "role": "Frontend Developer",
+        "company": "Astrocatto llc",
+        "description": "Desenvolvo uma plataforma de gestão de comunidades com React, Zustand e Material UI, dando prioridade à fidelidade do design, à validação Zod e à escalabilidade multilingue."
       },
       "2022": {
-        "role": "Desenvolvedor Full Stack",
-        "company": "StartupXYZ",
+        "year": "2021 - 2023",
+        "role": "Frontend Developer",
+        "company": "Free-lance",
         "description": "Construí plataformas web escaláveis do zero, lidando com tudo, desde design de banco de dados até interfaces pixel-perfect."
-      },
-      "2020": {
-        "role": "Desenvolvedor Frontend",
-        "company": "Agência Digital",
-        "description": "Criei experiências interativas e design systems para clientes empresariais em diversas indústrias."
-      },
-      "2018": {
-        "role": "Desenvolvedor Júnior",
-        "company": "Estúdio Web",
-        "description": "Comecei minha jornada construindo sites responsivos e aprendendo os fundamentos do desenvolvimento web moderno."
       }
     }
   },
   "projects": {
     "title": "Trabalho em destaque",
-    "alpha": {
-      "title": "Projeto Alpha",
-      "description": "Experimentos interativos de performance explorando transições de visualização, SSR em streaming e micro-interações."
+    "blogmdx": {
+      "title": "Blogmdx",
+      "url":"https://fatstruct.github.io/blogmdx/",
+      "description": "Um editor desktop elegante para o seu blog. Edição de texto avançada, estilização com tipos de letra Google e publicação com um clique no GitHub Pages."
     },
     "toolkit": {
       "title": "API Toolkit",
@@ -71,6 +64,6 @@
     "cta": "Entre em contato"
   },
   "footer": {
-    "rights": "© {{year}} yourname. Todos os direitos reservados."
+    "rights": "© {{year}} Alexsandro Da Corte. Todos os direitos reservados."
   }
 }
