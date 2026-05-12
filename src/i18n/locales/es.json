@@ -49,6 +49,18 @@
       "url":"https://fatstruct.github.io/blogmdx/",
       "description": "Un editor de escritorio elegante para tu blog. Edición de texto enriquecido, estilo de Google Fonts y publicación con un solo clic en GitHub Pages."
     },
+    "mrewear": {
+      "title": "Misti ReWear",
+      "description": "Comércio electrónico digital Misti, reutilização, moda circular, identidade local, simplicidade radical através do neobrutalismo."
+    },
+    "covidtracker": {
+      "title": "Rastreador de Covid en tiempo real",
+      "description": "Un panel de control integral y en tiempo real diseñado para rastrear la propagación de la COVID-19 a nivel mundial."
+    },
+    "prontopizza": {
+      "title": "Pronto Pizzas & Empanadas",
+      "description": "Pronto Pizzas & Empanadas es una aplicación moderna de una sola página (SPA) diseñada para una experiencia de pedido de comida rápida, intuitiva y compatible con dispositivos móviles en CABA, Argentina."
+    },
     "pokedex": {
       "title": "Personal Pokedex",
       "description": "Un centro de datos Pokémon moderno y de alto rendimiento que permite a los entrenadores analizar estadísticas, comparar especies y planificar sus equipos de combate con precisión."
