@@ -6,7 +6,7 @@ const HeroSection = () => {
 
   return (
     <section className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 pt-20">
-      <a href="#about" className="group">
+      <a href="#contact" className="group">
       <motion.h1
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0  }}

@@ -11,6 +11,7 @@ export default defineConfig(({ mode }) => ({
       overlay: false,
     },
   },
+  base:"/portfolio_2026/",
   plugins: [react()].filter(Boolean),
   resolve: {
     alias: {

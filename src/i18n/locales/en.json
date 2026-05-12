@@ -44,14 +44,21 @@
   },
   "projects": {
     "title": "Featured work",
+    "prontopizza":{
+      "title":"Pronto Pizzería",
+      "description":"Pronto Pizzas & Empanadas is a modern single-page application (SPA) designed for a fast, intuitive, and mobile-friendly food ordering experience in CABA, Argentina."
+    },
+    "covidtracker":{
+      "title":"Covid Realtime Tracker",
+      "description":"Global COVID-19 tracking platform with real-time data, country-by-country analysis, and interactive comparison tools."
+    },
     "blogmdx": {
       "title": "Blogmdx",
-      "url":"https://fatstruct.github.io/blogmdx/",
       "description": "A beautiful desktop editor for your blog. Rich text editing, Google Fonts styling, and one-click publishing to GitHub Pages."
     },
-    "toolkit": {
-      "title": "API Toolkit",
-      "description": "A minimal API layer built with modern runtimes and focused on practical features for developers."
+    "mrewear": {
+      "title": "Misti Rewear Tienda Online",
+      "description": "Circular fashion Local identity Radical simplicity through neo-brutalism"
     },
     "playground": {
       "title": "Design Playground",

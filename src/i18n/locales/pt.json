@@ -44,6 +44,18 @@
   },
   "projects": {
     "title": "Trabalho em destaque",
+    "prontopizza":{
+      "title":"Pronto Pizzería",
+      "description":"Pronto Pizzas & Empanadas é uma aplicação moderna de página única (SPA) concebida para uma experiência de encomenda de comida rápida, intuitiva e otimizada para dispositivos móveis em CABA, Argentina."
+    },
+    "covidtracker":{
+      "title":"Covid Realtime Tracker",
+      "description":"Plataforma de monitorização global da COVID-19 com dados em tempo real, análises país a país e ferramentas interativas de comparação."
+    },
+    "mrewear": {
+      "title": "Misti Rewear Tienda Online",
+      "description": "Moda circular, identidade local, simplicidade radical através do neobrutalismo."
+    },
     "blogmdx": {
       "title": "Blogmdx",
       "url":"https://fatstruct.github.io/blogmdx/",
