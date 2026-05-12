@@ -49,13 +49,9 @@
       "url":"https://fatstruct.github.io/blogmdx/",
       "description": "Um editor desktop elegante para o seu blog. Edição de texto avançada, estilização com tipos de letra Google e publicação com um clique no GitHub Pages."
     },
-    "toolkit": {
-      "title": "API Toolkit",
-      "description": "Uma camada de API minimalista construída com runtimes modernos e focada em funcionalidades práticas para desenvolvedores."
-    },
-    "playground": {
-      "title": "Design Playground",
-      "description": "Uma exploração prática de tokens de design, sistemas de componentes e documentação padronizada."
+    "pokedex": {
+      "title": "Personal Pokedex",
+      "description": "Um centro de dados Pokémon moderno e de alto desempenho que permite aos treinadores analisar estatísticas, comparar espécies e planear as suas equipas de batalha com precisão."
     }
   },
   "contact": {

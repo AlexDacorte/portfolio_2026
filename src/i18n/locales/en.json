@@ -49,13 +49,13 @@
       "url":"https://fatstruct.github.io/blogmdx/",
       "description": "A beautiful desktop editor for your blog. Rich text editing, Google Fonts styling, and one-click publishing to GitHub Pages."
     },
-    "toolkit": {
+    "": {
       "title": "API Toolkit",
       "description": "A minimal API layer built with modern runtimes and focused on practical features for developers."
     },
-    "playground": {
-      "title": "Design Playground",
-      "description": "A practical exploration of design tokens, component systems, and standardized documentation."
+    "pokedex": {
+      "title": "Personal Pokedex",
+      "description": "A modern, high-performance Pokémon data center that allows trainers to analyze statistics, compare species, and plan their battle teams with precision."
     }
   },
   "contact": {

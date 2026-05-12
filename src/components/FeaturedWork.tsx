@@ -3,16 +3,41 @@ import { ArrowUpRight } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const projectKeys = [
-  { key: "blogmdx", tags: ["React", "TypeScript", "Tailwind"], href: "https://fatstruct.github.io/blogmdx/" },
-  { key: "toolkit", tags: ["Node.js", "REST", "SSR"], href: "#" },
-  { key: "playground", tags: ["CSS", "Design Tokens", "A11y"], href: "#" },
+  {
+    key: "blogmdx",
+    tags: ["React", "TypeScript", "Tailwind"],
+    href: "https://fatstruct.github.io/blogmdx/",
+  },
+  {
+    key: "mrewear",
+    tags: ["React", "TypeScript", "Tailwind"],
+    href: "https://alexdacorte.github.io/Misti_ReWear/",
+  },
+  {
+    key: "covidtracker",
+    tags: ["React", "Tailwind", "TypeScript"],
+    href: "https://alexdacorte.github.io/CovidTracker/",
+  },
+  {
+    key: "prontopizza",
+    tags: ["React", "Tailwind", "Framer Motion", "Shadcdn", "TypeScript"],
+    href: "https://alexdacorte.github.io/pronto_pizza_almagro/",
+  },
+  {
+    key: "pokedex",
+    tags: ["React", "Tailwind", "TypeScript"],
+    href: "https://alexdacorte.github.io/mypkdex/",
+  },
 ];
 
 const FeaturedWork = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="projects" className="relative px-6 md:px-12 py-20 max-w-6xl mx-auto">
+    <section
+      id="projects"
+      className="relative px-6 md:px-12 py-20 max-w-6xl mx-auto"
+    >
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
