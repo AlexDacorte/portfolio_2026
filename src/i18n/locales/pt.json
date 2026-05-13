@@ -51,7 +51,7 @@
     },
     "mrewear": {
       "title": "Misti ReWear",
-      "description": "Digital Ecommerce Misti rewear,  Circular fashion Local identity Radical simplicity through neo-brutalism"
+      "description": "Comércio electrónico digital Misti, reutilização, moda circular, identidade local, simplicidade radical através do neobrutalismo."
     },
     "covidtracker": {
       "title": "Rastreador de Covid em Tempo Real",
@@ -64,6 +64,10 @@
     "pokedex": {
       "title": "Personal Pokedex",
       "description": "Um centro de dados Pokémon moderno e de alto desempenho que permite aos treinadores analisar estatísticas, comparar espécies e planear as suas equipas de batalha com precisão."
+    },
+    "hytreact": {
+      "title": "Saudável ou saborosa  versão feito m react",
+      "description": "Uma aplicação web moderna e de alto desempenho que permite aos utilizadores alternar entre receitas 'Saudáveis' ricas em nutrientes e alimentos reconfortantes 'Saborosos' e indulgentes."
     }
   },
   "contact": {

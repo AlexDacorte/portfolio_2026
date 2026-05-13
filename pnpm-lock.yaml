@@ -113,9 +113,6 @@ importers:
       framer-motion:
         specifier: ^12.38.0
         version: 12.38.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      gh-pages:
-        specifier: ^6.3.0
-        version: 6.3.0
       i18next:
         specifier: ^25.10.5
         version: 25.10.10(typescript@5.9.3)
@@ -207,6 +204,9 @@ importers:
       eslint-plugin-react-refresh:
         specifier: ^0.4.20
         version: 0.4.26(eslint@9.39.4(jiti@1.21.7))
+      gh-pages:
+        specifier: ^6.3.0
+        version: 6.3.0
       globals:
         specifier: ^15.15.0
         version: 15.15.0

@@ -62,8 +62,12 @@
       "description": "Pronto Pizzas & Empanadas is a modern single-page application (SPA) designed for a fast, intuitive, and mobile-friendly food ordering experience in CABA, Argentina."
     },
     "pokedex": {
-      "title": "Personal Pokedex",
+      "title": "Pokedex",
       "description": "A modern, high-performance Pokémon data center that allows trainers to analyze statistics, compare species, and plan their battle teams with precision."
+    },
+    "hytreact": {
+      "title": "Healthy or Tasty React version",
+      "description": "A modern, high-performance Web App that allows users to toggle between nutrient-dense 'Healthy' recipes and indulgent 'Tasty' comfort foods."
     }
   },
   "contact": {

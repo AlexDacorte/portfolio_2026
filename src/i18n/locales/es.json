@@ -51,19 +51,23 @@
     },
     "mrewear": {
       "title": "Misti ReWear",
-      "description": "Comércio electrónico digital Misti, reutilização, moda circular, identidade local, simplicidade radical através do neobrutalismo."
+      "description": "comercio electrónico digital, reutilización, moda circular, identidad local, simplicidad radical a través del neobrutalismo."
     },
     "covidtracker": {
       "title": "Rastreador de Covid en tiempo real",
-      "description": "Un panel de control integral y en tiempo real diseñado para rastrear la propagación de la COVID-19 a nivel mundial."
+      "description": "Un panel de control integral y en tiempo real diseñado para rastrear la propagación del COVID-19 a nivel mundial."
     },
     "prontopizza": {
       "title": "Pronto Pizzas & Empanadas",
       "description": "Pronto Pizzas & Empanadas es una aplicación moderna de una sola página (SPA) diseñada para una experiencia de pedido de comida rápida, intuitiva y compatible con dispositivos móviles en CABA, Argentina."
     },
     "pokedex": {
-      "title": "Personal Pokedex",
+      "title": "Pokedex",
       "description": "Un centro de datos Pokémon moderno y de alto rendimiento que permite a los entrenadores analizar estadísticas, comparar especies y planificar sus equipos de combate con precisión."
+    },
+    "hytreact": {
+      "title": "Saludable o sabroso versión hecha en react",
+      "description": "Una aplicación web moderna y de alto rendimiento que permite a los usuarios alternar entre recetas 'saludables' ricas en nutrientes y platos mas 'sabrosos' e indulgentes."
     }
   },
   "contact": {

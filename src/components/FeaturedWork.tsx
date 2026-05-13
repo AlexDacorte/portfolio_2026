@@ -28,6 +28,11 @@ const projectKeys = [
     tags: ["React", "Tailwind", "TypeScript"],
     href: "https://alexdacorte.github.io/mypkdex/",
   },
+  {
+    key: "hytreact",
+    tags: ["React", "Tailwind", "Framer Motion", "Shadcdn", "TypeScript"],
+    href: "https://alexdacorte.github.io/healthy_or_tasty_react/",
+  },
 ];
 
 const FeaturedWork = () => {

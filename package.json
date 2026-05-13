@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alexdacorte.github.io/portfolio_2026/",
   "name": "vite_react_shadcn_ts",
   "private": true,
   "version": "0.0.0",
@@ -50,7 +51,6 @@
     "date-fns": "^3.6.0",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.38.0",
-    "gh-pages": "^6.3.0",
     "i18next": "^25.10.5",
     "i18next-browser-languagedetector": "^8.2.1",
     "input-otp": "^1.4.2",
@@ -71,6 +71,8 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+
+    "gh-pages": "^6.3.0",
     "@eslint/js": "^9.32.0",
     "@tailwindcss/typography": "^0.5.16",
     "@testing-library/jest-dom": "^6.6.0",
