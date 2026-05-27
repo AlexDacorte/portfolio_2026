@@ -33,6 +33,11 @@ const projectKeys = [
     tags: ["React", "Tailwind", "Framer Motion", "Shadcdn", "TypeScript"],
     href: "https://alexdacorte.github.io/healthy_or_tasty_react/",
   },
+  {
+    key: "joinsesh",
+    tags: ["React", "Materia Ui", "TypeScript", "Zustand", "Zod"],
+    href: "https://www.joinsesh.ai",
+  },
 ];
 
 const FeaturedWork = () => {

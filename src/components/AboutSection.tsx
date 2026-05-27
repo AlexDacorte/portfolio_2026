@@ -5,22 +5,25 @@ const AboutSection = () => {
   const { t } = useTranslation();
 
   const timeline = [
-  {
-    year: t("about.timeline.2024.year"),
-    role: t("about.timeline.2024.role"),
-    company: t("about.timeline.2024.company"),
-    description: t("about.timeline.2024.description"),
-  },
-  {
-    year: t("about.timeline.2022.year"),
-    role: t("about.timeline.2022.role"),
-    company: t("about.timeline.2022.company"),
-    description: t("about.timeline.2022.description"),
-  }
-];
+    {
+      year: t("about.timeline.2024.year"),
+      role: t("about.timeline.2024.role"),
+      company: t("about.timeline.2024.company"),
+      description: t("about.timeline.2024.description"),
+    },
+    {
+      year: t("about.timeline.2022.year"),
+      role: t("about.timeline.2022.role"),
+      company: t("about.timeline.2022.company"),
+      description: t("about.timeline.2022.description"),
+    },
+  ];
 
   return (
-    <section id="about" className="relative px-6 md:px-12 py-20 max-w-6xl mx-auto">
+    <section
+      id="about"
+      className="relative px-6 md:px-12 py-20 max-w-6xl mx-auto"
+    >
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}

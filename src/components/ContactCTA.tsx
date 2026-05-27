@@ -6,7 +6,10 @@ const ContactCTA = () => {
   const { t } = useTranslation();
 
   return (
-    <section id="contact" className="relative px-6 md:px-12 py-24 max-w-4xl mx-auto text-center">
+    <section
+      id="contact"
+      className="relative px-6 md:px-12 py-24 max-w-4xl mx-auto text-center"
+    >
       <motion.h2
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -25,7 +28,7 @@ const ContactCTA = () => {
         {t("contact.subtitle")}
       </motion.p>
       <motion.a
-        href="mailto:hello@example.com"
+        href="mailto:alexsandrodc@outlook.es"
         initial={{ opacity: 0, y: 15 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}

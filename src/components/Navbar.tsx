@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
 import { Globe } from "lucide-react";
 import { useState } from "react";
+import { useScrollStore } from "@/store/useScrollStore";
 
 const languages = [
   { code: "en", label: "EN" },
@@ -10,12 +11,13 @@ const languages = [
 ];
 
 const Navbar = () => {
+  const scrollToSection = useScrollStore((state) => state.scrollToSection);
   const { t, i18n } = useTranslation();
   const [langOpen, setLangOpen] = useState(false);
   const links = [
-    { label: t("nav.about"), href: "#about" },
-    { label: t("nav.projects"), href: "#projects" },
-    { label: t("nav.contact"), href: "#contact" },
+    { label: t("nav.about"), href: "about" },
+    { label: t("nav.projects"), href: "projects" },
+    { label: t("nav.contact"), href: "contact" },
   ];
 
   return (
@@ -36,8 +38,9 @@ const Navbar = () => {
           {links.map((link) => (
             <motion.a
               key={link.href}
-              href={link.href}
-              whileHover={{ rotate: 3 , scale: 1.05}}
+              onClick={() => scrollToSection(link.href)}
+              style={{ cursor: "pointer" }}
+              whileHover={{ rotate: 3, scale: 1.05 }}
               transition={{ type: "spring", stiffness: 300 }}
               className="text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
             >
@@ -45,7 +48,8 @@ const Navbar = () => {
             </motion.a>
           ))}
           <a
-            href="#contact"
+            style={{ cursor: "pointer" }}
+            onClick={() => scrollToSection("contact")}
             className="text-sm px-4 py-2 rounded-lg border border-border hover:border-primary/50 text-foreground transition-all duration-200"
           >
             {t("nav.letsTalk")}
@@ -59,7 +63,9 @@ const Navbar = () => {
             className="flex items-center gap-1.5 text-sm text-muted-foreground hover:text-foreground transition-colors duration-200"
           >
             <Globe className="w-4 h-4" />
-            <span className="uppercase font-medium">{i18n.language?.substring(0, 2)}</span>
+            <span className="uppercase font-medium">
+              {i18n.language?.substring(0, 2)}
+            </span>
           </button>
           {langOpen && (
             <div className="absolute right-0 top-full mt-2 rounded-lg border border-border bg-card p-1 min-w-[80px]">

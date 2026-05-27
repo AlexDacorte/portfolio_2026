@@ -46,7 +46,6 @@
     "title": "Trabalho em destaque",
     "blogmdx": {
       "title": "Blogmdx",
-      "url":"https://fatstruct.github.io/blogmdx/",
       "description": "Um editor desktop elegante para o seu blog. Edição de texto avançada, estilização com tipos de letra Google e publicação com um clique no GitHub Pages."
     },
     "mrewear": {
@@ -68,6 +67,11 @@
     "hytreact": {
       "title": "Saudável ou saborosa  versão feito m react",
       "description": "Uma aplicação web moderna e de alto desempenho que permite aos utilizadores alternar entre receitas 'Saudáveis' ricas em nutrientes e alimentos reconfortantes 'Saborosos' e indulgentes."
+    },
+    
+    "joinsesh": {
+      "title": "Sesh (joinsesh.ai)",
+      "description": "Um ecossistema e infraestrutura de comunidade voltados diretamente para os fãs, criados para a indústria musical e criadores de conteúdo."
     }
   },
   "contact": {
