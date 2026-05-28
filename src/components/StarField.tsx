@@ -10,8 +10,22 @@ const StarField = () => {
     if (!ctx) return;
 
     let animationId: number;
-    const stars: { x: number; y: number; vx: number; vy: number; size: number; opacity: number }[] = [];
-    const lines: { x: number; y: number; length: number; speed: number; opacity: number; angle: number }[] = [];
+    const stars: {
+      x: number;
+      y: number;
+      vx: number;
+      vy: number;
+      size: number;
+      opacity: number;
+    }[] = [];
+    const lines: {
+      x: number;
+      y: number;
+      length: number;
+      speed: number;
+      opacity: number;
+      angle: number;
+    }[] = [];
 
     const resize = () => {
       canvas.width = window.innerWidth;
@@ -20,7 +34,6 @@ const StarField = () => {
     resize();
     window.addEventListener("resize", resize);
 
-    // Create stars
     for (let i = 0; i < 120; i++) {
       stars.push({
         x: Math.random() * canvas.width,
@@ -32,7 +45,6 @@ const StarField = () => {
       });
     }
 
-    // Create shooting lines
     for (let i = 0; i < 5; i++) {
       lines.push({
         x: Math.random() * canvas.width,
@@ -47,7 +59,6 @@ const StarField = () => {
     const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-      // Draw stars
       stars.forEach((star) => {
         ctx.beginPath();
         ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
@@ -61,7 +72,6 @@ const StarField = () => {
         if (star.y > canvas.height) star.y = 0;
       });
 
-      // Draw lines
       lines.forEach((line) => {
         ctx.beginPath();
         ctx.moveTo(line.x, line.y);

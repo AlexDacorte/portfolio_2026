@@ -56,7 +56,6 @@ const Navbar = () => {
           </a>
         </div>
 
-        {/* Language switcher */}
         <div className="relative">
           <button
             onClick={() => setLangOpen(!langOpen)}

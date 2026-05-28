@@ -14,12 +14,12 @@
   "status": {
     "now": "NOW",
     "nowTitle": "Frontend & IT Solutions",
-    "nowDesc": "Creating scalable web platforms and high-performance management systems. Transforming complex designs into fluid interfaces using React, Zustand, and TypeScript, with a strong focus on real-time data optimization and self-managing digital architectures.",
+    "nowDesc": "Creating scalable web platforms and high-performance management systems. Transforming complex designs into fluid interfaces using React, Zustand, and TypeScript, with a strong focus on real-time data optimization.",
     "exploreProjects": "Explore projects",
     "viewJourney": "View my journey",
     "radar": "ON THE RADAR",
-    "radarTitle": "Multi-agent ecosystems",
-    "radarDesc": "Exploring meta-orchestration procedures for task decomposition, scheduling, and prioritization in autonomous development systems.",
+    "radarTitle": "Tech passionate",
+    "radarDesc": "Passionate technology enthusiast dedicated to translating complex requirements into clean, high-performance web applications. I love exploring advanced software architecture and pushing the boundaries of development workflows.",
     "interests": "INTERESTS",
     "interestsTitle": "Always learning",
     "interestsDesc": "From design systems to distributed architectures — constantly pushing boundaries and exploring new paradigms in software engineering."
@@ -38,7 +38,7 @@
         "year": "2021 - 2023",
         "role": "Frontend Developer",
         "company": "Free-lance",
-        "description": "Built scalable web platforms from the ground up, handling everything from database design to pixel-perfect UIs."
+        "description": "Development of custom web applications, interactive SPAs, and landing pages using React for individual clients. Management of the complete project lifecycle, from requirements gathering to final deployment, ensuring accessible, responsive, and optimized interfaces."
       }
     }
   },

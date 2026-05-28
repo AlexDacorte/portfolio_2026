@@ -43,7 +43,6 @@ const AboutSection = () => {
       </motion.p>
 
       <div className="relative mt-40">
-        {/* Vertical line */}
         <div className="absolute left-[7px] md:left-1/2 md:-translate-x-px top-0 bottom-0 w-px bg-border" />
 
         <div className="space-y-12">
@@ -60,12 +59,10 @@ const AboutSection = () => {
                   isLeft ? "md:flex-row" : "md:flex-row-reverse"
                 }`}
               >
-                {/* Dot */}
                 <div className="absolute left-0 md:left-1/2 md:-translate-x-1/2 top-1 z-10">
                   <motion.div className="w-3.5 h-3.5 rounded-full bg-primary border-[3px] border-background" />
                 </div>
 
-                {/* Content */}
                 <div
                   className={`ml-8 md:ml-0 md:w-1/2 ${
                     isLeft ? "md:pr-12 md:text-right" : "md:pl-12"

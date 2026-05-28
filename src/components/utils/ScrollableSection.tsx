@@ -1,4 +1,4 @@
-import { ReactNode, useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { useScrollStore } from "@/store/useScrollStore";
 
 export const ScrollableSection = ({ id, children, ...props }) => {

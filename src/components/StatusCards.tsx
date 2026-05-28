@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Compass, Music } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { useScrollStore } from "@/store/useScrollStore";
 
 const StatusCards = () => {
+  const scrollToSection = useScrollStore((state) => state.scrollToSection);
   const { t } = useTranslation();
 
   const cards = [
@@ -12,8 +14,8 @@ const StatusCards = () => {
       description: t("status.nowDesc"),
       icon: null,
       actions: [
-        { text: t("status.exploreProjects"), href: "#projects" },
-        { text: t("status.viewJourney"), href: "#about" },
+        { text: t("status.exploreProjects"), href: "projects" },
+        { text: t("status.viewJourney"), href: "about" },
       ],
     },
     {
@@ -60,8 +62,9 @@ const StatusCards = () => {
                 {card.actions.map((action) => (
                   <a
                     key={action.text}
-                    href={action.href}
+                    onClick={() => scrollToSection(action.href)}
                     className="text-sm px-4 py-2 rounded-lg border border-border hover:border-primary/50 text-foreground transition-all duration-200 flex items-center gap-1.5"
+                    style={{ cursor: "pointer" }}
                   >
                     {action.text}
                     <ArrowRight className="w-3.5 h-3.5" />

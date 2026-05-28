@@ -14,12 +14,12 @@
   "status": {
     "now": "AHORA",
     "nowTitle": "Frontend & Soluciones IT",
-    "nowDesc": "Creando plataformas web escalables y sistemas de gestión de alto rendimiento. Transformando diseños complejos en interfaces fluidas usando React, Zustand y TypeScript, con un fuerte enfoque en la optimización de datos en tiempo real y arquitecturas digitales auto-gestionadas.",
+    "nowDesc": "Creando plataformas web escalables y sistemas de gestión de alto rendimiento. Transformando diseños complejos en interfaces fluidas usando React, Zustand y TypeScript, con un fuerte enfoque en la optimización de datos en tiempo real.",
     "exploreProjects": "Explorar proyectos",
     "viewJourney": "Ver mi trayectoria",
     "radar": "EN EL RADAR",
-    "radarTitle": "Ecosistemas multi-agente",
-    "radarDesc": "Explorando procedimientos de meta-orquestación para descomposición de tareas, programación y priorización en sistemas de desarrollo autónomos.",
+    "radarTitle": "Apasionado de la tecnología",
+    "radarDesc": "Apasionado de la tecnología, dedicado a transformar requisitos complejos en aplicaciones web limpias y de alto rendimiento. Me encanta explorar arquitecturas de software avanzadas y llevar al límite los flujos de trabajo de desarrollo.",
     "interests": "INTERESES",
     "interestsTitle": "Siempre aprendiendo",
     "interestsDesc": "Desde sistemas de diseño hasta arquitecturas distribuidas — siempre empujando los límites y explorando nuevos paradigmas en ingeniería de software."
@@ -38,7 +38,7 @@
         "year": "2021 - 2023",
         "role": "Desarrollador Frontend",
         "company": "Free-lance",
-        "description": "Construí plataformas web escalables desde cero, manejando todo desde el diseño de bases de datos hasta interfaces pixel-perfect."
+        "description": "Desarrollo de aplicaciones web, SPAs interactivas y Landing Pages a medida con React para clientes particulares. Gestión del ciclo completo del proyecto, desde la toma de requerimientos hasta el despliegue final, garantizando interfaces accesibles, responsivas y optimizadas."
       }
     }
   },
