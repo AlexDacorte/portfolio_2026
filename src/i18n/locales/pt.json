@@ -44,6 +44,7 @@
   },
   "projects": {
     "title": "Trabalho em destaque",
+    "titlePetProject": "Projetos pessoais",
     "blogmdx": {
       "title": "Blogmdx",
       "description": "Um editor desktop elegante para o seu blog. Edição de texto avançada, estilização com tipos de letra Google e publicação com um clique no GitHub Pages."
@@ -68,10 +69,14 @@
       "title": "Saudável ou saborosa  versão feito m react",
       "description": "Uma aplicação web moderna e de alto desempenho que permite aos utilizadores alternar entre receitas 'Saudáveis' ricas em nutrientes e alimentos reconfortantes 'Saborosos' e indulgentes."
     },
-    
+
     "joinsesh": {
       "title": "Sesh (joinsesh.ai)",
       "description": "Um ecossistema e infraestrutura de comunidade voltados diretamente para os fãs, criados para a indústria musical e criadores de conteúdo."
+    },
+    "habitForge": {
+      "title": "Habit Forge",
+      "description": "Um rastreador de hábitos elegante e intuitivo, projetado para ajudar os usuários a criar rotinas positivas, visualizar seu progresso diário e manter sequências de longo prazo."
     }
   },
   "contact": {

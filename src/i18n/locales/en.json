@@ -43,7 +43,8 @@
     }
   },
   "projects": {
-    "title": "Featured work",
+    "title": "Work Experience",
+    "titlePetProject": "Pet projects",
     "blogmdx": {
       "title": "Blogmdx",
       "description": "A beautiful desktop editor for your blog. Rich text editing, Google Fonts styling, and one-click publishing to GitHub Pages."
@@ -71,6 +72,10 @@
     "joinsesh": {
       "title": "Sesh (joinsesh.ai)",
       "description": "A direct-to-fan community ecosystem and infrastructure layer built for the music industry and content creators."
+    },
+    "habitForge": {
+      "title": "Habit Forge",
+      "description": "A sleek, intuitive habit-tracker designed to help users build positive routines, visualize their daily progress, and maintain long-term streaks."
     }
   },
   "contact": {
